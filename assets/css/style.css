@@ -29,8 +29,28 @@ a {
 }
 
 body#page2 {
-    background-image: url(../images/trees.jpg);
+    background-image: url(../images/trees.JPG);
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 5%;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 10%;
+    margin-left:10%;
+    vertical-align: middle;
+  }
 
 
 /* body {
@@ -142,14 +162,14 @@ nav a:first-child {
 } */
 
 
-    .portfolioImages { 
+    /* .portfolioImages { 
     margin-top: 10px;
     margin-bottom: 10px;
     float: left;
     clear: both;
     margin-right: 25px;
-    width: 100%; 
-} 
+    width: 100%;  */
+
 
 footer {
     position: fixed;
