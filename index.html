@@ -1,45 +1,179 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>Bootstrap Portfolio</title>
     <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="HandheldFriendly" content="True">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <!-- <link rel="stylesheet" type="text/css" href="Bootsrap-Portfolio/assets/css/reset.css"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+    <script src="https://use.fontawesome.com/f63cfcea3e.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 
 </head>
 
-<body id="page1">
+<body>
+    <div class="container">
+
+        <div class="header">
+            <img id="tree-background" src="assets/images/trees.jpg">
+
+            <div class="col-sm">
+                <div id="specificPropertyParameters">
+                    <div class="square el">
+                        <h1 id="title">Luis Gutierrez</h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-    <div id="name">
-        <!-- <img src="assets/images/LGwhite.gif" alt="Dis Me"> -->
-        <h1>Luis Gutierrez</h1>
+        <div class="links">
+            <div id="main-menu menu4" id="menu">
+                <ul>
+                  
+                        <a id="about" class="smoothtransition about" href="#about">
+                            <span class="num"></span>about
+                            <div class="hoversmall-link"></div>
+                        </a>
+                   
+                   
+                        <a id="portfolio" class="smoothtransition portfolio" href="#portfolio">
+                            <span class="num"></span>projects
+                            <div class="hoversmall-link"></div>
+                        </a>
+                  
+                    
+                        <a id="contact" class="smoothtransition contact" href="#contact">
+                            <span class="num"></span>contact
+                            <div class="hoversmall-link"></div>
+                        </a>
+                    
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="card" style="width: 28rem;">
+                    <img class="card-img-top" src="assets/images/mecopy.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <p class="card-text">Luis Gutierrez</p>
+                   
+                    <p>
+                    <a href="https://github.com/gwapesofwath">
+                     <i class="fa fa-github" aria-hidden="true"></i> 
+                    <a href="https://www.linkedin.com/in/luis-gutierrez-302a93165/">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="sidebox">
+                    <h2>Hello! I'm Luis</h2>
+                    <p class="personal">I'm a soon to be graduate of The University of Texas at Austin full-stack software development boot camp. I enjoy web design and would love to chat with you about working on a project. I'm knowledgeable in HTML, CSS, Javascript, Jquery, C++, React.js, Node.js, express.js, mySql and MongoDB and am always eager to learn a new language or technology. In my free time I love to travel and enjoy running in the mountains.</p>
+                    <p> </p>
+                </div>
+            </div>
+        </div>
+
+
+    
+        <div class="projectText">
+
+            <p>Project portfolio</p>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+
+                <a href="https://vast-cliffs-34645.herokuapp.com/">
+                    <img src="assets/images/spacenap copy.jpg" class="portfolioImages" style="width:100%">
+                </a>
+
+                <a href="https://gwapesofwath.github.io/basketballGIFs/">
+                    <img src="assets/images/bballImage.jpg" class="portfolioImages" alt="bball" style="width:100%">
+                </a>
+
+            </div>
+
+            <div class="col-md-4">
+
+
+                <a href="https://spaceyb0t.github.io/Project-1-/index.html#getstarted">
+                    <img src="assets/images/alie-moab.JPG" class="portfolioImages" style="width:100%">
+                </a>
+
+                <a href="https://gwapesofwath.github.io/unit-4-game/">
+                    <img src="assets/images/negronhands.jpg" class="portfolioImages" style="width:100%">
+                </a>
+
+            </div>
+            <div class="col-md-4">
+
+                <a href="https://gwapesofwath.github.io/TriviaGame/">
+                    <img src="assets/images/george.jpeg" class="portfolioImages" alt="Cat" style="width:100%">
+                </a>
+
+                <a href="https://ancient-savannah-21829.herokuapp.com/">
+                    <img src="assets/images/carousel6.jpg" class="portfolioImages" style="width:100%">
+                </a>
+            </div>
+
+        </div>
+
+<div class="footer bottom">
+        <a href="https://github.com/gwapesofwath">
+            <i class="fa fa-github faFooter" aria-hidden="true"></i> 
+           <a href="https://www.linkedin.com/in/luis-gutierrez-302a93165/">
+               <i class="fa fa-linkedin faLIFooter" aria-hidden="true"></i>
+           </a>
+</div>
+    </div>
     </div>
 
+<script type="text/javascript">
+$(".about").click(function() {
+        $("html, body").animate({
+            scrollTop: $(".card").offset().top
+        }, 800);
+    })
+    $(".portfolio").click(function() {
+        $("html, body").animate({
+            scrollTop: $(".projectText").offset().top
+        }, 800);
+    })
+    $(".footer").click(function() {
+        $("html, body").animate({
+            scrollTop: $(".bottom").offset().top
+        }, 800);
+    })
 
-
-
-    <div class="main-menu menu4" id="menu">
-            <ul>
-            <li><a id="work"  class="smoothtransition"  href="about.html"><span class="num"></span>about<div class="hoversmall-link"></div></a></li>
-            <li><a id="work"  class="smoothtransition"  href="portfolio.html"><span class="num"></span>projects<div class="hoversmall-link"></div></a></li>
-            <li><a id="work"  class="smoothtransition"  href="contact.html"><span class="num"></span>contact<div class="hoversmall-link"></div></a></li>
-            </ul></li>
-        
-        
-            </ul>
-
-    </div>
-
+</script>
 
 </body>
+
 </html>
