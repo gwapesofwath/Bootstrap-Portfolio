@@ -1,3 +1,3 @@
 Portfolio created using bootstrap components
 
-https://gwapesofwath.github.io/Bootstrap-Portfolio/
+https://gwapesofwath.github.io/LuisGutierrez/
